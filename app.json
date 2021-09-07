@@ -9,9 +9,9 @@
     "compress",
     "bot"
   ],
-  "success_url": "https://t.me/linux_repo",
-  "website": "https://t.me/Discovery_Updates",
-  "repository": "https://github.com/AbirHasan2005/VideoCompress",
+  "success_url": "https://t.me/mrsschan",
+  "website": "https://t.me/kidszonacompa",
+  "repository": "https://github.com/tamilkidszona/VideoCompress",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
@@ -19,7 +19,7 @@
     },
     "SESSION_NAME": {
       "description": "Keep this default",
-      "value": "AHCompressBot",
+      "value": "tkCompressBot",
       "required": true
     },
     "DATABASE_URL": {
@@ -44,7 +44,7 @@
     },
     "AUTH_USERS": {
       "description": "Allow only pre-defined users to use this bot as Sudo User. Separate with Space. Just for using Admin Commands.",
-      "value": "715779594",
+      "value": "1131894770",
       "required": false
     },
     "FINISHED_PROGRESS_STR": {
@@ -61,7 +61,7 @@
       "required": true
     },
     "LOG_CHANNEL": {
-      "description": "Your Bot's Log Channel's Username. For Help ask in @linux_repo",
+      "description": "Your Bot's Log Channel's Username. For Help ask in @mrsschan",
       "value": "",
       "required": true
     },
