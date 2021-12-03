@@ -13,10 +13,10 @@ class Config(object):
     APP_ID = int(get_config("APP_ID", 7073816))
     API_HASH = get_config("API_HASH", "7cb448a441865808cd8add4201f24aba")
     LOG_CHANNEL = get_config("-1001575283034")
-    UPDATES_CHANNEL = get_config("kidszonacompa", None) # Without `@` LOL
+    UPDATES_CHANNEL = kidszonacompa("kidszonacompa", None) # Without `@` LOL
      # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
-    AUTH_USERS = set(
+    AUTH_USERS = 715779594(
         int(x) for x in get_config(
             "715779594",
             should_prompt=True
